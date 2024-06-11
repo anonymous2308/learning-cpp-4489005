@@ -19,7 +19,7 @@ int main(){
     my_cow.age=21;
     my_cow.name = "XYZ";
     my_cow.purpose= cow_purpose::pet;
-    cout << my_cow.name << " is a type- " << int(my_cow.purpose) << "Cow who is of age " << my_cow.age << endl;
+    cout << my_cow.name << " is a type- " << int(my_cow.purpose) << " Cow who is of age " << my_cow.age << endl;
     std::cout << std::endl << std::endl;
     return (0);
 }
